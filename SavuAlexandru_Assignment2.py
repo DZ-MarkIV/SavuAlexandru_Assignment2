@@ -4,8 +4,9 @@ from tkinter import messagebox
 import mysql.connector
 import os
 import time
+import credentials
 
-db = mysql.connector.connect(host = "localhost", port = "3306", user = "root", passwd = "1234", database = "userinfo")
+db = mysql.connector.connect(host = "localhost", port = "3306", user = credentials.username, passwd = credentials.password, database = credentials.dbname)
 mycur = db.cursor()
 
 def error_destroy():
