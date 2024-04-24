@@ -10,4 +10,4 @@ Features:
   - Administrators can create a Normal user as well as delete them, but they cannot delete other Administrators.
   - Root can create Normal Users, Administrators as well as delete both of them. The Root user cannot be deleted.
 
-Under constant analysis from Sonarqube.
+Under constant analysis from Sonarqube with the help of Jenkins.
