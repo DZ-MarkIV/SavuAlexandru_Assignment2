@@ -1,3 +1,4 @@
+#Assignment 2 for DEV6003 class - Savu Sever-Alexandru
 from tkinter import *
 from tkinter import messagebox
 import mysql.connector
