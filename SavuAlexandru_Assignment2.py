@@ -4,6 +4,8 @@ from tkinter import messagebox
 import mysql.connector
 import os
 import time
+import sys
+sys.path.insert(0, 'C:/Credentials/Encrypted')
 import credentials
 
 db = mysql.connector.connect(host = "localhost", port = "3306", user = credentials.username, passwd = credentials.password, database = credentials.dbname)
